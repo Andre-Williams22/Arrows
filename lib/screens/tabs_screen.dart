@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../widgets/main_drawer.dart';
 import './favorites_screen.dart';
 import './categories_screen.dart';
@@ -9,6 +8,7 @@ class TabsScreen extends StatefulWidget {
   _TabsScreenState createState() => _TabsScreenState();
 }
 
+// adds new tabs
 class _TabsScreenState extends State<TabsScreen> {
   final List<Map<String, Object>> _pages = [
     {
